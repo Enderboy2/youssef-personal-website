@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef</title>
+    <link rel="stylesheet" href="/src/about-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body >
+
+    <div id="trailer">
+        <i id="trailer-icon" class="fa-solid fa-arrow-up-right"></i>
+    </div>
+
+    <div id="tiles"></div>
+
+    <div id="menu" class="centered">
+        <div id="menu-items">
+            <a href="/" class="menu-item interactable" data-type="link">Main</a>
+            <a href="/contact.html" class="menu-item interactable" data-type="link">Contact</a>
+            <a href="#" class="menu-item" id="close-menu">x</a>
+        </div>
+        <div id="menu-background-pattern"></div>
+    </div>
+
+    <div class="card-swiper centered">
+    <div class="card-groups">
+      <div class="card-group" data-index="0" data-status="active">
+        <div class="little-card card">
+            <div class="fancy">Me</div>
+        </div>
+        <div class="big-card card">
+            Youssef <br>
+            Karim <br>
+            Hassan<br>
+            Elsaid<br>
+            Hassan<br>
+            Moussa<br>
+        </div>
+        <div class="little-card card">
+            little card 2
+        </div>
+        <div class="big-card card">
+            2
+        </div>
+        <div class="little-card card">
+            <div class="fancy">About</div>
+        </div>
+        <div class="big-card card">
+            3
+        </div>
+        <div class="little-card card">
+            4
+        </div>
+        <div class="big-card card">
+            I am a 14 year old Software Developer <br> <br>
+            Gender -> Male
+            personality -> INTP <br>
+
+        </div>
+      </div>
+      <div class="card-group" data-index="1" data-status="unknown">
+        <div class="little-card card">
+            <div class="fancy">Skills</div>
+        </div>
+        <div class="big-card skills-left card">
+            <div class="skill-row">
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt"></i>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-square-js"></i>
+                </div>
+    
+            </div>
+
+            <div class="skill-row">
+                    
+                <div class="skill-card">
+                    <i class="fa-brands fa-git"></i>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+            <div class="skill-row">
+                <div class="skill-card">
+                    <i class="fa-brands fa-python"></i>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-php"></i>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-sass"></i>
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <div class="skill-card">
+                    <i class="fa-brands fa-windows"></i>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-linux"></i>
+                </div>
+            </div>
+        </div>
+        <div class="little-card card">
+  
+        </div>
+        <div class="big-card card">
+            2
+        </div>
+        <div class="little-card card">
+            <div class="fancy">My</div>
+        </div>
+        <div class="big-card card">
+            3
+        </div>
+        <div class="little-card card">
+  
+        </div>
+        <div class="big-card skills-right card">
+            Arduino <br>
+            C, C++ <br>
+            MySQL <br>
+            React <br>
+            Tailwind <br>
+            Electron <br>
+        </div>
+      </div>
+    </div>
+    <div class="card-swiper-buttons">
+      <button id="left-button" onclick="handleLeftClick()" class="interactable" data-type="cross">
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
+      <button id="right-button" onclick="handleRightClick()" class="interactable" data-type="cross">
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
+  </div>
+  
+
+    <!-- includes-->
+    <script src="https://kit.fontawesome.com/944eb371a4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="/src/about.js"></script>
+</body>
+</html>
